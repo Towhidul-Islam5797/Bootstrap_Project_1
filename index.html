@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+	<title>Project</title>
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body shadow-lg fixed-top" data-bs-theme="dark" style="">
+	  <div class="container-fluid bg-dark">
+	    <a class="navbar-brand" href="#"><img src="img\arct-icon.png" alt="LOGO"></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarText">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#grid">Grids</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#about">About</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#footer">Contact Us</a>
+	        </li>
+	      </ul>
+	      <span class="navbar-text">
+	        Navbar text with an inline element
+	      </span>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- Bootstrap Carousel-->
+	<section style="margin-top: 80px;">
+		<div id="carouselExampleCaptions" class="carousel slide col-sm-7 mx-auto">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img\post-large-image1.jpg" height="auto" class="d-block w-80 img-thumbnail" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>First slide label</h5>
+		        <p>Some representative placeholder content for the first slide.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img\post-large-image2.jpg" style="border:2px solid gray;" class="d-block w-80 img-thumbnail" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>Second slide label</h5>
+		        <p>Some representative placeholder content for the second slide.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img\post-large-image3.jpg" style="height: 100%; width:100%;" class="d-block w-80 img-thumbnail" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>Third slide label</h5>
+		        <p>Some representative placeholder content for the third slide.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	</section>
+
+	<hr>
+
+
+	<!-- Bootstrap grid -->
+	<section id="grid" style="overflow: hidden; margin-top: 10px; background-color: linear-gradient(#212529, white);" class="mx-auto">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-sm shadow-lg">
+					<div class="card" style="width: 18rem;">
+					<img src="img\insta-item5.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+					</div>
+				</div>
+				<div class="col-sm shadow-lg">
+					<div class="card" style="width: 18rem;">
+					<img src="img\insta-item6.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+					</div>
+				</div>
+				<div class="col-sm shadow-lg">
+					<div class="card" style="width: 18rem;">
+					<img src="img\insta-item1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm shadow-lg">
+					<div class="card" style="width: 18rem;">
+						<img src="img\product-item-4.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+								card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm shadow-lg">
+					<div class="card" style="width: 18rem;">
+						<img src="img\product-item-5.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+								card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm shadow-lg">
+					<div class="card" style="width: 18rem;">
+						<img src="img\product-item-6.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+								card's content.</p>
+						</div>
+					</div>
+				</div>
+			</div>															
+		</div>
+	</section>
+	<hr>
+
+	<!-- About -->
+	<section id = "about" style="margin-top:10px;">
+		<div class="container text-center">
+			<p style="font-family: monospace; font-size: 30px;">About</p>
+			<div class="row">
+			    <div class="col-6" style="overflow:hidden;">
+			    	<div class="text-center">
+					  <img src="img\banner-image-1.jpg" class="rounded img-thumbnail" alt="..." width="420px">
+					</div>
+			    </div>
+			    <div class="col-6">
+			    	<p class="lh-1" style="text-align: justify; font-family: unset;">Lorem ipsum dolor, 
+						sit amet consectetur adipisicing elit. Saepe laboriosam aspernatur excepturi quibusdam, 
+						ab dicta dolorum cupiditate ut aliquam harum aut culpa numquam iste sit exercitationem 
+						minima in maxime similique rerum ullam veniam est eaque! Sit molestias libero quam 
+						blanditiis nisi laboriosam dolorum, odio nesciunt voluptatem. Eveniet magnam veritatis 
+						non et odit laboriosam velit eligendi error, dolorum incidunt magni modi, consequatur iusto perspiciatis? 
+						Illum voluptatum aperiam nesciunt perspiciatis error, obcaecati sequi fugit nam. Animi, placeat 
+						fuga quaerat officia id quos culpa debitis ex, consequatur sed, accusantium repellat sint 
+						temporibus nihil obcaecati quisquam praesentium officiis exercitationem. Sequi, molestias 
+						fugiat velit error dolorem asperiores rerum non, id mollitia atque aspernatur, eaque tempora 
+						animi sunt perferendis. Voluptate ratione earum voluptatibus illum eaque, repudiandae dolor 
+						quos natus ex ducimus non? Dicta iste asperiores repudiandae temporibus adipisci sapiente 
+						dignissimos ad inventore odit vel exercitationem ut cupiditate sequi, eveniet dolore eius, 
+						voluptas est tempore laborum fugiat magnam possimus molestias corporis! Distinctio aperiam 
+						dolorum illum repellat reiciendis quas omnis ducimus id. Debitis, beatae! Voluptates aliquam 
+						itaque quos possimus doloribus, exercitationem omnis ipsum cupiditate quae harum aperiam cum 
+						sit! Quo, illum veniam perspiciatis totam officia a consectetur laboriosam dolorum obcaecati 
+						mollitia blanditiis eum ipsa asperiores cupiditate commodi adipisci. Repudiandae quisquam est 
+						doloremque, eaque fugit et harum blanditiis doloribus perspiciatis natus, laboriosam ut nostrum 
+						ratione quasi, sint totam culpa alias eveniet ea commodi maiores libero minus ipsum. Ipsam nobis 
+						veritatis asperiores tempore quaerat consequuntur explicabo officiis ad minima non. Laboriosam 
+						dolorum mollitia facilis fugit nemo nisi corporis enim perferendis obcaecati culpa eius, molestias 
+						doloribus saepe odio eveniet veritatis facere? Explicabo delectus blanditiis ducimus repudiandae 
+						corrupti autem, deserunt mollitia quibusdam inventore nulla odio minus neque, sunt eum ipsum et, 
+						totam quasi tempora eaque ratione distinctio! Facilis exercitationem quasi molestias cum, saepe 
+						ipsum minus in corrupti magni aperiam deleniti dolorum officiis, sint, accusantium perferendis 
+						ut accusamus. Eligendi eum nostrum dignissimos voluptates. Nulla eos ducimus numquam voluptate 
+						distinctio perspiciatis sequi vitae alias velit quia eius dolores eveniet, ullam modi possimus 
+						dicta, quam consequuntur officiis repellendus architecto rerum eligendi quas. Minus quo ipsum 
+						vero dolores, numquam earum asperiores, magnam dolorem illum quidem distinctio perferendis qui. 
+						Sunt iusto, officiis cupiditate ex adipisci in. Similique pariatur explicabo omnis culpa amet 
+						officiis minus! Rem earum ea autem. Explicabo aliquid libero ex, ullam laboriosam unde quasi 
+						dignissimos impedit consequatur sapiente, beatae maxime fuga architecto ipsam! Est recusandae 
+						molestiae eum aliquid laborum illo doloribus facilis? Ea, quis sint.
+					</p>
+				</div>
+		    </div>
+		</div>
+	</section>
+	<hr>
+
+	<!-- Bootstrap Form -->
+	<section id="form" class="col-md-7 text-light bg-dark p-4 mx-auto rounded">
+
+		<form>
+		  <div class="mb-3">
+		    <label for="exampleInputEmail1" class="form-label">Name</label>
+		    <input type="text" class="form-control" placeholder="Enter your name here" aria-describedby="emailHelp">
+		  </div>
+		  <div class="mb-3">
+		    <label for="exampleInputEmail1" class="form-label">Your Email address</label>
+		    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter your email address">
+		    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+		  </div>
+		  <div class="mb-3">
+		    <label for="exampleInputPassword1" class="form-label">Enter your message</label>
+		    <textarea type="text" class="form-control"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-primary">SEND</button>
+		</form>
+	</section>
+	<hr>
+
+	<!-- footer -->
+	<div class="container" id="footer">
+	  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+	    <div class="col-md-4 d-flex align-items-center">
+	      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+	        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+	      </a>
+	      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Md. Towhidul Islam Rahat, Inc</span>
+	    </div>
+
+	    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+	      <li class="ms-3"><a class="text-body-secondary" href="facebook.com/"><i class="fa fa-facebook" style="color: #b6b9be; font-size: 30px;"></i></a></li>
+	      <li class="ms-3"><a class="text-body-secondary" href="x.com/"><i class="fa fa-twitter" style="color: #b6b9be; font-size: 30px;"></i></a></li>
+	      <li class="ms-3"><a class="text-body-secondary" href="instagram.com/"><i class="fa fa-brands fa-instagram" style="color: #b6b9be; font-size: 30px;"></i></a></li>
+	    </ul>
+	  </footer>
+	</div>
+</body>
+</html>
